@@ -1,0 +1,17 @@
+{
+     "name": "Tab Tweaker",
+     "version": "1.0",
+     "manifest_version": 3,
+     "author": "alihoushyaripour@gmail.com",
+     "description": "Chrome extension that allows you to have some fun with open browser tabs",
+     "incognito": "not_allowed",
+     "content_scripts": [
+          {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"],
+            "all_frames": true,
+            "run_at": "document_idle",
+            "world": "MAIN"
+          }
+     ]
+}
