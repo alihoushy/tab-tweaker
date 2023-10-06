@@ -4,6 +4,6 @@
 
 A simple Chrome extension that allows you to have some fun with open browser tabs.
 
-Screenshot of browser, when extension is activated.
+The screenshot shows the browser when the extension has been activated.
 
 ![alt text](./assets/extension-screenshot.png)
